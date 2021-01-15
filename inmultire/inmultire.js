@@ -5,6 +5,12 @@ for (let j = 0; j < 10; j++) {
     }
     document.write("<br>")
     
+    }
+    
+function display {
+    
 }
+
+
 
 //tema de afisat inline
