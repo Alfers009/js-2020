@@ -1,9 +1,9 @@
 document.querySelector("div")
-.addEventListener("click", function () {
+.addEventListener("click",  () => 
     document.querySelector("div").classList.add("disappear")    
-})
+)
 
 document.querySelector("div")
-.addEventListener("animationend", function () {
+.addEventListener("animationend",  () =>
     document.querySelector("div").classList.remove("disappear")    
-})
+)
