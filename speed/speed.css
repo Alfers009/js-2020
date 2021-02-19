@@ -1,4 +1,4 @@
-body{
+body {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,7 +21,7 @@ input[type="button"] {
     border-radius: 10%;
     font-family: monospace;
     font-size: 1.5em;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .hidden {
     visibility: hidden;
