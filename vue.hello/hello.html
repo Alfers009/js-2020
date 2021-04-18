@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="hello.js" defer></script>
 </head>
 <body>
     <div id="app">
-
+        <p id="now">{{time}}</p>
+        <p>{{message}}</p>
+        <input class="clicks"type="button" :value = "counter" @click="increment">
     </div>
 </body>
 </html>
