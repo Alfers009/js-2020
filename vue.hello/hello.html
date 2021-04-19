@@ -10,9 +10,15 @@
 </head>
 <body>
     <div id="app">
-        <p id="now">{{time}}</p>
-        <p>{{message}}</p>
-        <input class="clicks"type="button" :value = "counter" @click="increment">
+        <p id="now">{{ time }}</p>
+        <p>{{ message }}</p>
+        <!-- atributul value este "bind"-uit cu valoarea counter din data  -->
+        <!-- sintaxa echivalenta este: "v-bind:value" -->
+        <!-- sintaxa prescurtata este: ":value" -->
+        <!-- cand se da click pe input se apeleaza metoda "increment" -->
+        <!-- sintaxa lunga: v-on:click="increment" -->
+        <!-- sintaxa scurta: @click="increment" -->
+        <input class="clicks" type="button" :value="counter" @click="increment" >
     </div>
 </body>
 </html>
